@@ -1,16 +1,15 @@
-import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import Link from "next/link";
+import Head from "next/head";
 
-export default function Home() {
+export default function About() {
   return (
     <>
       <Head>
-        <title>Ninja List | Home</title>
+        <title>Ninja List | About</title>
         <meta name="keyword" content="ninja" />
       </Head>
       <div>
-        <h1 className={styles.title}>HOME</h1>
+        <h1 className={styles.title}>About</h1>
         <p className={styles.text}>
           It is a long established fact that a reader will be distracted by the
           readable content of a page when looking at its layout. The point of
@@ -33,9 +32,6 @@ export default function Home() {
           infancy. Various versions have evolved over the years, sometimes by
           accident, sometimes on purpose (injected humour and the like).
         </p>
-        <Link href="/ninjas">
-          <a className={styles.btn}>See Ninja Listing</a>
-        </Link>
       </div>
     </>
   );
